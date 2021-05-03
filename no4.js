@@ -13,8 +13,8 @@ let data = {
   website: "hildegard.org",
 }
 
-const newName = ([data.name] = ["Rahadian Reza"])
-const newEmail = ([data.email] = ["reza@email.com"])
+const newName = ([...data.name] = ["Rahadian Reza"])
+const newEmail = ([...data.email] = ["reza@email.com"])
 const newHobby = ([...data.hoby] = ["makan", "main game", "ngoding"])
 
 console.log(data)
