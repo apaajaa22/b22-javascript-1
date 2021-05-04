@@ -25,9 +25,16 @@ const biodata = {
   ],
   skills: [
     {
-      javascript: "beginner",
-      reactJs: "beginner",
-      reactNative: "beginner",
+      skillName: "javascript",
+      level: "beginner",
+    },
+    {
+      skillName: "reactJs",
+      level: "beginner",
+    },
+    {
+      skillName: "reactNative",
+      level: "beginner",
     },
   ],
   interestInCoding: true,

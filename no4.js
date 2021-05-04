@@ -13,11 +13,14 @@ let data = {
   website: "hildegard.org",
 }
 
-const newName = ([...data.name] = ["Rahadian Reza"])
-const newEmail = ([...data.email] = ["reza@email.com"])
-const newHobby = ([...data.hoby] = ["makan", "main game", "ngoding"])
+const newData = {
+  ...data,
+  name: "rahadian reza r",
+  email: "reza@emailcom",
+  hobby: "main bola",
+}
 
-console.log(data)
+console.log(newData)
 
-const { street, city } = data.address
+const { street, city } = newData.address
 console.log(`alamat saya di jalan ${street} pada kota ${city}`)
